@@ -1,7 +1,7 @@
 import sys
 
 
-def get_inventory() -> list:
+def get_inventory() -> dict:
     inventory = {}
 
     for arg in sys.argv[1:]:
