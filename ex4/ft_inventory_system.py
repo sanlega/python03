@@ -2,7 +2,7 @@ import sys
 
 
 def get_inventory() -> dict:
-    inventory = {}
+    inventory: dict = {}
 
     for arg in sys.argv[1:]:
         if arg.count(":") != 1:
